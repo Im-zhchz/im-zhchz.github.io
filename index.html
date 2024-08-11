@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   <meta name="robots" content="index,follow">
-  <link rel="canonical" href="http://im-zhchz.github.io/blog/"/>
+  <link rel="canonical" href="http://im-zhchz.github.io/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -27,7 +27,7 @@
   <!-- Custom Files headBegin end-->
   <!-- front-matter head_begin begin -->
   <!-- front-matter head_begin end -->
-  <link rel="preload" href="/blog/css/style.css" as="style">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -38,7 +38,7 @@
   <meta desc name="description" content="Zhchz 个人博客 - Zhchz - Zhchz 个人博客">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Zhchz 个人博客">
-<meta property="og:url" content="http://im-zhchz.github.io/blog/index.html">
+<meta property="og:url" content="http://im-zhchz.github.io/index.html">
 <meta property="og:site_name" content="Zhchz 个人博客">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -1665,8 +1665,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/blog/css/style.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/blog/css/style.css"></noscript>
+  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -1738,9 +1738,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: "env",
-    cdn: {"js":{"app":"/blog/js/app.js","parallax":"/blog/js/plugins/parallax.js","rightMenu":"/blog/js/plugins/rightMenu.js","rightMenus":"/blog/js/plugins/rightMenus.js","sites":"/blog/js/plugins/tags/sites.js","friends":"/blog/js/plugins/tags/friends.js","contributors":"/blog/js/plugins/tags/contributors.js","search":"/blog/js/search/hexo.js"},"css":{"style":"/blog/css/style.css"}},
+    cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1723388065749),
+    lastupdate: new Date(1723389047337),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2183,7 +2183,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 		<div class="nav-main">
       
         
-        <a class="title flat-box" target="_self" href='/blog/'>
+        <a class="title flat-box" target="_self" href='/'>
           
             <img no-lazy class='logo' src='https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/Logo-NavBar@3x.png'/>
           
@@ -2201,11 +2201,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/" title="博客"
+                href="/" title="博客"
                   
                   
                   
-                    active-action="action-blog"
+                    active-action="action-home"
                   >
                   <i class='fa-solid fa-rss fa-fw'></i>博客
                 </a>
@@ -2218,11 +2218,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/categories/" title="分类"
+                href="/categories/" title="分类"
                   
                   
                   
-                    active-action="action-blogcategories"
+                    active-action="action-categories"
                   >
                   <i class='fa-solid fa-folder-open fa-fw'></i>分类
                 </a>
@@ -2235,11 +2235,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/tags/" title="标签"
+                href="/tags/" title="标签"
                   
                   
                   
-                    active-action="action-blogtags"
+                    active-action="action-tags"
                   >
                   <i class='fa-solid fa-tags fa-fw'></i>标签
                 </a>
@@ -2252,11 +2252,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/archives/" title="归档"
+                href="/archives/" title="归档"
                   
                   
                   
-                    active-action="action-blogarchives"
+                    active-action="action-archives"
                   >
                   <i class='fa-solid fa-archive fa-fw'></i>归档
                 </a>
@@ -2269,11 +2269,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/friends/" title="友链"
+                href="/friends/" title="友链"
                   
                   
                   
-                    active-action="action-blogfriends"
+                    active-action="action-friends"
                   >
                   <i class='fa-solid fa-link fa-fw'></i>友链
                 </a>
@@ -2286,11 +2286,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/about/" title="关于"
+                href="/about/" title="关于"
                   
                   
                   
-                    active-action="action-blogabout"
+                    active-action="action-about"
                   >
                   <i class='fa-solid fa-info-circle fa-fw'></i>关于
                 </a>
@@ -2322,11 +2322,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/" title="博客"
+                href="/" title="博客"
                   
                   
                   
-                    active-action="action-blog"
+                    active-action="action-home"
                   >
                   <i class='fa-solid fa-rss fa-fw'></i>博客
                 </a>
@@ -2339,11 +2339,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/categories/" title="分类"
+                href="/categories/" title="分类"
                   
                   
                   
-                    active-action="action-blogcategories"
+                    active-action="action-categories"
                   >
                   <i class='fa-solid fa-folder-open fa-fw'></i>分类
                 </a>
@@ -2356,11 +2356,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/tags/" title="标签"
+                href="/tags/" title="标签"
                   
                   
                   
-                    active-action="action-blogtags"
+                    active-action="action-tags"
                   >
                   <i class='fa-solid fa-tags fa-fw'></i>标签
                 </a>
@@ -2373,11 +2373,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/archives/" title="归档"
+                href="/archives/" title="归档"
                   
                   
                   
-                    active-action="action-blogarchives"
+                    active-action="action-archives"
                   >
                   <i class='fa-solid fa-archive fa-fw'></i>归档
                 </a>
@@ -2390,11 +2390,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/friends/" title="友链"
+                href="/friends/" title="友链"
                   
                   
                   
-                    active-action="action-blogfriends"
+                    active-action="action-friends"
                   >
                   <i class='fa-solid fa-link fa-fw'></i>友链
                 </a>
@@ -2407,11 +2407,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/blog/about/" title="关于"
+                href="/about/" title="关于"
                   
                   
                   
-                    active-action="action-blogabout"
+                    active-action="action-about"
                   >
                   <i class='fa-solid fa-info-circle fa-fw'></i>关于
                 </a>
@@ -2454,38 +2454,38 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class='list-h'>
         
           
-            <a href="/blog/v4/getting-started/"
+            <a href="/v4/getting-started/"
               
               
-              active-action="action-blogv4getting-started">
+              active-action="action-v4getting-started">
               <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f5c3.svg'><p>文档</p>
             </a>
           
-            <a href="/blog/faqs/"
+            <a href="/faqs/"
               
               
-              active-action="action-blogfaqs">
+              active-action="action-faqs">
               <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f516.svg'><p>帮助</p>
             </a>
           
-            <a href="/blog/examples/"
+            <a href="/examples/"
               
               
-              active-action="action-blogexamples">
+              active-action="action-examples">
               <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f396.svg'><p>示例</p>
             </a>
           
-            <a href="/blog/contributors/"
+            <a href="/contributors/"
               
               
-              active-action="action-blogcontributors">
+              active-action="action-contributors">
               <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f389.svg'><p>社区</p>
             </a>
           
-            <a href="/blog/archives/"
+            <a href="/archives/"
               
               
-              active-action="action-blogarchives">
+              active-action="action-archives">
               <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f4f0.svg'><p>博客</p>
             </a>
           
@@ -2527,7 +2527,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           <div class='post-wrapper'>
             <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://im-zhchz.github.io/blog/2024/08/10/hello-world/">
+  <link itemprop="mainEntityOfPage" href="http://im-zhchz.github.io/2024/08/10/hello-world/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Zhchz 个人博客">
   </span>
@@ -2545,7 +2545,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
     <h2 class="article-title"  itemprop="name headline">
-      <a href="/blog/2024/08/10/hello-world/"  itemprop="url">
+      <a href="/2024/08/10/hello-world/"  itemprop="url">
         Hello World
       </a>
     </h2>
@@ -2567,7 +2567,7 @@ Qu...
       </div>
       
         <div>
-          <a class='readmore' href='/blog/2024/08/10/hello-world/' itemprop="url">
+          <a class='readmore' href='/2024/08/10/hello-world/' itemprop="url">
             阅读全文
           </a>
         </div>
@@ -2599,7 +2599,7 @@ Qu...
   <div class='content'>
     
       
-        <a class='avatar flat-box rectangle' href='/blog/about/'>
+        <a class='avatar flat-box rectangle' href='/about/'>
           <img no-lazy src='https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/Logo-NavBar@3x.png'/>
         </a>
       
@@ -2618,7 +2618,7 @@ Qu...
       <div class="social-wrapper">
         
           
-            <a href="/blog/atom.xml"
+            <a href="/atom.xml"
               class="social fa-solid fa-rss flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -2645,7 +2645,7 @@ Qu...
           
         
           
-            <a href="/blog/"
+            <a href="/"
               class="social fa-solid fa-headphones-alt flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -2830,7 +2830,7 @@ Qu...
 
 <!-- internal -->
 
-<script src="/blog/blog/js/app.js"></script>
+<script src="/js/app.js"></script>
 
 
 
@@ -2846,19 +2846,19 @@ Qu...
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/blog/js/plugins/tags/sites.js")
+        volantis.js("/js/plugins/tags/sites.js")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/blog/js/plugins/tags/friends.js")
+        volantis.js("/js/plugins/tags/friends.js")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/blog/js/plugins/tags/contributors.js")
+        volantis.js("/js/plugins/tags/contributors.js")
       }
     
   };
@@ -2978,14 +2978,14 @@ Qu...
 <!-- optional -->
 
   <script>
-  const SearchServiceDataPathRoot = ("/blog/" || "/").endsWith("/") ?
-    "/blog/" || "/" :
-    "/blog//" || "/";
+  const SearchServiceDataPathRoot = ("/" || "/").endsWith("/") ?
+    "/" || "/" :
+    "//" || "/";
   const SearchServiceDataPath = SearchServiceDataPathRoot + "content.json";
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/blog/js/search/hexo.js");
+    return volantis.js("/js/search/hexo.js");
   }
 
   function loadSearchService() {
@@ -3234,7 +3234,7 @@ Qu...
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Zhchz 个人博客","url":"http://im-zhchz.github.io/blog/blog/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Zhchz","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://im-zhchz.github.io/blog/blog/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://im-zhchz.github.io/blog/blog/","name":"Zhchz 个人博客"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Zhchz 个人博客","url":"http://im-zhchz.github.io/blog/blog/","keywords":null,"description":"","author":{"@type":"Person","name":"Zhchz","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://im-zhchz.github.io/blog/blog/","description":""},"publisher":{"@type":"Organization","name":"Zhchz 个人博客","url":"http://im-zhchz.github.io/blog/blog/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://im-zhchz.github.io/blog?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Zhchz","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://im-zhchz.github.io/blog/blog/"},"publisher":{"@type":"Organization","name":"Zhchz 个人博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Zhchz 个人博客","url":"http://im-zhchz.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Zhchz","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://im-zhchz.github.io/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://im-zhchz.github.io/","name":"Zhchz 个人博客"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Zhchz 个人博客","url":"http://im-zhchz.github.io/","keywords":null,"description":"","author":{"@type":"Person","name":"Zhchz","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://im-zhchz.github.io/","description":""},"publisher":{"@type":"Organization","name":"Zhchz 个人博客","url":"http://im-zhchz.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://im-zhchz.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Zhchz","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://im-zhchz.github.io/"},"publisher":{"@type":"Organization","name":"Zhchz 个人博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
